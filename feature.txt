@@ -1,1 +1,1 @@
-"I learned how to use Git for version control, branching, and pull requests." 
+"I learned how to use Git branches and pull requests." 
