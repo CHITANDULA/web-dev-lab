@@ -1,3 +1,0 @@
-group members
-1. LAWRENCE CHITANDULA
-2. CHILUFYA CHULU
