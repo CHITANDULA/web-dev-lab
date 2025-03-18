@@ -1,13 +1,56 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, 
-initial-scale=1.0"> 
-<title>My First Web Page</title> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My First Web Page</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head> 
 <body> 
-<h1>Welcome to Web Development!</h1> 
-<p>This is my first HTML page.</p> 
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h1>Welcome to Web Development!</h1> 
+    <p>This is my first HTML page, now with enhancements!</p> 
+
+    <button onclick="alert('Thanks for visiting!')">Click Me</button>
+
+    <footer>
+        <p>&copy; 2024 My First Web Page. All rights reserved.</p>
+    </footer>
+
 </body> 
 </html>
